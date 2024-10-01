@@ -1,0 +1,105 @@
+.main-box{
+    width: 99vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    overflow-x: hidden;
+    padding: 40px 0px;
+}
+
+.labels{
+    display: flex;
+    gap: 12px;
+    font-size: small;
+    justify-content: center;
+    font-weight: 300;
+    color: gray;
+}
+
+.sign-box{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 4rem;
+    width: fit-content;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.8px);
+    -webkit-backdrop-filter: blur(1.8px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.sign-box h1{
+    text-transform: uppercase;
+}
+
+.sign-box p{
+    font-size: medium;
+    font-family: auto;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: -24px;
+}
+
+.fileds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.fileds input{
+    width: 316px;
+    height: 40px;
+    padding: 0 35px 0 20px;
+    border: none;
+    border-bottom: 1px solid #2F70B0;
+    outline-color: #2F70B0;
+    background-color: transparent;
+}
+
+.sign-box button{
+    width: 330px;
+    height: 48px;
+    border: none;
+    border-radius: 14px;
+    font-size: 24px;
+    font-weight: 500;
+    color: whitesmoke;
+    background-color: #2F70B0;
+}
+
+.sign-box button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.otpBox{
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+
+.otpBox input{
+    width: 50px;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+}
+
+.sign-box span{
+    color: #2F70B0;
+    cursor: pointer;
+}
+
+.error-message{
+    color: rgb(255, 0, 0);
+    align-self: flex-start;
+    margin-left: 15px;
+    font-size: 14px;
+}

@@ -1,0 +1,9 @@
+.fileds label{
+    font-size: large;
+    font-family: auto;
+    color: #2F70B0;
+    align-self: flex-end;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-right: 4px;
+}

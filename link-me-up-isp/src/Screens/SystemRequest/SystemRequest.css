@@ -1,0 +1,26 @@
+.reply-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.reply-details input{
+    width: 70%;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    font-size: small;
+}
+
+.reply-details textarea{
+    width: 70%;
+    height: 150px;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    font-size: medium;
+}
+
+.reply-details button{
+    align-self: flex-start;
+    margin: 0 2rem;
+}

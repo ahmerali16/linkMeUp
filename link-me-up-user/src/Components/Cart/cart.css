@@ -1,0 +1,200 @@
+.cart-render-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.cart-details{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.59);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.1px);
+    -webkit-backdrop-filter: blur(1.1px);
+    border: 1px solid whitesmoke
+}
+
+.packagePicture-packageDetails{
+    display: flex;
+    gap: 15px;
+}
+
+.packagePicture-packageDetails img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+
+
+.packagePicture-packageDetails h5{
+    font-weight: 500;
+    color: gray;
+}
+
+.packagePrice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-details img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.package-summary{
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, 0.59);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.1px);
+    -webkit-backdrop-filter: blur(1.1px);
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+}
+
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.platform-charges{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.package-summary h3,h4{
+    font-weight: 500;
+}
+
+.seperator{
+    width: 100%;
+    color: black;
+    border-radius: 40%;
+}
+
+.package-summary button{
+    color: white;
+    width: 80%;
+    align-self: center;
+    padding: 8px 0;
+    border: none;
+    font-size: x-large;
+    border-radius: 12px;
+    font-family: auto;
+}
+
+.transaction-button-enabled{
+    background-color: #2F70B0;
+    cursor: pointer;
+}
+
+.transaction-button-enabled:hover{
+    transform: scale(1.1);
+}
+
+.transaction-button-disabled{
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.my-custom-modal {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  .my-custom-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
+.payment-gateway{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.payment-gateway h2{
+    font-family: auto;
+    font-size: xx-large;
+}
+
+.pg-1{
+    width: 95%;
+}
+
+.pg-1 label{
+    font-family: auto;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.pg-1 h5{
+    font-family: auto;
+    font-size: medium;
+}
+
+.pg-1 span{
+    font-weight: lighter;
+}
+
+.pg-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pg-2 input{
+    width: 70%;
+}
+
+.pg-2 button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: #2F70B0;
+    color: white;
+    font-size: medium;
+    font-family: auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.pg-2 button:hover{
+    transform: scale(1.05);
+    background-color: transparent;
+    border: 1px solid #2F70B0;
+    color: black;
+}

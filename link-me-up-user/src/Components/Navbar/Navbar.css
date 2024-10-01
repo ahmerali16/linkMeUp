@@ -1,0 +1,131 @@
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar{
+    width: 100vw;
+    height: 62px;
+    background-color: white;
+    box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.479);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navBar-box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar-box h1{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-right: 26rem;
+}
+
+.logoText-box{
+    display: flex;
+    align-items: center;
+}
+
+.logoText-box img{
+    width: 70px;
+    height: 70px;
+}
+
+.logoText-box h2{
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 90%;
+    letter-spacing: 5%;
+    font-weight: bold;
+}
+
+.navBar-buttons{
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navBar-buttons img{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.navBar-buttons img:hover{
+    transform: scale(1.05);
+}
+
+.navBar-buttons div{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.navBar-buttons div img{
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    border-radius: 100%;
+}
+
+.navBar-buttons div label{
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: auto;
+}
+
+.navBar-buttons button{
+    background-color: #2F70B0;
+    border: none;
+    width: 100px;
+    height: 38px;
+    border-radius: 8px;
+    color: white;
+    font-size: large;
+    font-family: auto;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.navBar-buttons button:hover{
+    background: transparent;
+    border: 0.5px solid #2F70B0;
+    color: black;
+}
+
+.navBar-buttons div.user-menu{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    position: absolute;
+    top: 3.5rem;
+    right: 20rem;
+    width: 12rem;
+    background: white;
+    padding: 12px 12px;
+    border-radius: 12px;
+}
+
+.navBar-buttons div.user-menu button{
+    width: 100%;
+    color: black;
+    background-color: transparent;
+}
+
+.navBar-buttons div.user-menu button:hover{
+    background-color: #2F70B0;
+    opacity: 0.7;
+    color: white;
+}

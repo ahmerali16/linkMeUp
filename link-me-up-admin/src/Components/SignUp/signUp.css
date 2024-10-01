@@ -1,0 +1,77 @@
+.sign-box{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.8px);
+    -webkit-backdrop-filter: blur(1.8px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    margin-top: 5rem;
+}
+
+.sign-box h1{
+    text-transform: uppercase;
+}
+
+.fileds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.fileds input{
+    width: 316px;
+    height: 40px;
+    padding: 0 35px 0 20px;
+    border: none;
+    border-bottom: 1px solid #2F70B0;
+    outline-color: #2F70B0;
+    background-color: transparent;
+}
+
+.sign-box button{
+    width: 330px;
+    height: 48px;
+    border: none;
+    border-radius: 14px;
+    font-size: 24px;
+    font-weight: 500;
+    color: whitesmoke;
+    background-color: #2F70B0;
+}
+
+.sign-box button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.otpBox{
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+
+.otpBox input{
+    width: 50px;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+}
+
+.sign-box span{
+    color: #2F70B0;
+    cursor: pointer;
+}
+
+.error-message{
+    color: rgb(255, 0, 0);
+    align-self: flex-start;
+    margin-left: 15px;
+    font-size: 14px;
+}

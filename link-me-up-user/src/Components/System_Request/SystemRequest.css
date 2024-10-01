@@ -1,0 +1,87 @@
+.section{
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 1rem 0;
+    overflow: auto;
+}
+
+.section input{
+    width: 65%;
+    border: 1px solid #a09999;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.section button{
+    width: fit-content;
+    height: 32px;
+    background-color: #2F70B0;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    margin-left: 10rem;
+}
+
+.section button:hover{
+   transform: scale(1.1);
+}
+
+.section div{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.section div textarea{
+    width: 40%;
+    border: 1px solid #a09999;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 1rem 1rem;
+}
+
+.section h2{
+    font-family: auto;
+    font-size: xx-large;
+    text-transform: capitalize;
+    align-self: flex-start;
+}
+
+.section label{
+    position: absolute;
+    left: 25.7rem;
+    top: 10.4rem;
+    background-color: gainsboro;
+    padding: 8px;
+    font-size: small;
+    font-family: auto;
+}
+
+.additional-info p{
+    font-size: medium;
+    font-family: auto;
+}
+
+.actual-receipt h4{
+    font-family: auto;
+    font-size: large;
+    text-transform: capitalize;
+    font-weight: 600;
+}

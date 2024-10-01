@@ -1,0 +1,103 @@
+.receipt-section-box{
+    margin-top: 6rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.receipt-section-box h1{
+    font-size: 2.5rem;
+    font-family: auto;
+}
+
+.receipts-box{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.actual-receipt{
+    width: 300px;
+    height: fit-content;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.actual-receipt h2{
+    font-family: auto;
+    font-size: xxx-large;
+}
+
+.actual-receipt h3{
+    margin-top: -0.7rem;
+    font-family: auto;
+    font-size: medium;
+    width: 75%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.additional-info{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 0.8rem;
+}
+
+.additional-info div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.additional-info div label{
+    font-family: auto;
+    font-size: small;
+    font-weight: 100;
+    color: gray;
+}
+
+.additional-info div h5{
+    font-family: auto;
+    font-size: large;
+}
+
+.additional-info button{
+    margin-top: 0.8rem;
+    width: fit-content;
+    padding: 0.5rem 1.4rem;
+    background-color: #2F70B0;
+    border: none;
+    font-family: auto;
+    font-size: medium;
+    color: white;
+    border-radius: 6px;
+    transition: all 0.5s ease-in-out;
+}
+
+.additional-info button:hover{
+    transform: scale(1.05);
+    border: 1px solid #2F70B0;
+    background-color: transparent;
+    color: black;
+}
+
+.payment-confirm{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 15rem;
+}

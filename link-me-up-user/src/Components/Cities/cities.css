@@ -1,0 +1,186 @@
+.city-line{
+    width: 100%;
+    height: 250px;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/cityBG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.city-line h1{
+    color: white;
+    font-size: 6rem;
+    letter-spacing: 16px;
+    text-transform: uppercase;
+    font-family: auto;
+}
+
+.isps-filter-component{
+    width: 100%;
+    height: 50px;
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 10px;
+    scroll-behavior: smooth;
+}
+
+.isps-filter-component::-webkit-scrollbar {
+    display: none; 
+}
+
+.isps-filter-component button{
+    background-color: #373737;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    padding: 6px 12px;
+    flex: 0 0 auto; 
+    white-space: nowrap;
+    min-width: fit-content;
+    text-transform: capitalize;
+}
+
+.isps-filter-component button:focus,
+.isps-filter-component button:active
+.isps-filter-component button:hover{
+    background-color: #2F70B0;
+}    
+
+.package-display-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px;
+    padding: 16px 48px;
+}
+
+.actual-package-box{
+    width: 300px;
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: ease-out 0.3 height;
+}
+
+.actual-package-box img{
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.basic-info{
+    width: 90%;
+    height: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    padding: 0 5%;
+    gap: 8px;
+}
+
+.basic-info > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.basic-info > div{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: fit-content;
+}
+
+.basic-info h3{
+    font-size: larger;
+    font-family: auto;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.basic-info h5{
+    font-size: small;
+    font-family: auto;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.further-info{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: fit-content;
+    padding: 0 6%;
+    gap: 4px;
+    margin-top: 12px;
+}
+
+.further-info h4{
+    font-size: large;
+    font-family: auto;
+    font-weight: 600;
+}
+
+.further-info span{
+    font-weight: 400;
+}
+
+.further-info p{
+    font-size: medium;
+    font-family: auto;
+}
+
+.actual-package-box .btn{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 6%;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.actual-package-box button{
+    background-color: #2F70B0;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    font-size: medium;
+    color: white;
+    font-family: auto;
+}
+
+.actual-package-box button:hover{
+    transform: scale(1.05);
+}
+
+.dropDown{
+    position: relative;
+    left: 256px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.actual-package-box textarea{
+    width: 75%;
+    height: 175px;
+    margin-top: 0.8rem;
+    align-self: center;
+    border-radius: 8px;
+    padding: 1rem;
+    background: transparent;
+}
